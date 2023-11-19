@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11742352B0A2BFD00C74951 /* CustomChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11742342B0A2BFD00C74951 /* CustomChatCell.swift */; };
+		F11742382B0A2CB100C74951 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = F11742372B0A2CB100C74951 /* MessageKit */; };
+		F117423A2B0A2CCC00C74951 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = F11742392B0A2CCC00C74951 /* MessageKit */; };
 		F12D22A02B09AE6E00DF9E2F /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D229F2B09AE6E00DF9E2F /* TasksView.swift */; };
 		F12D22A42B09B1D700DF9E2F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22A32B09B1D700DF9E2F /* Task.swift */; };
 		F12D22A62B09DB4800DF9E2F /* DetailedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22A52B09DB4800DF9E2F /* DetailedTaskView.swift */; };
 		F12D22C52B09FDC000DF9E2F /* SwiftNFC in Frameworks */ = {isa = PBXBuildFile; productRef = F12D22C42B09FDC000DF9E2F /* SwiftNFC */; };
-		F12D22C72B0A01D000DF9E2F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22C62B0A01D000DF9E2F /* LoginView.swift */; };
 		F12D22C92B0A025400DF9E2F /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22C82B0A025400DF9E2F /* GifImage.swift */; };
 		F12D22CC2B0A03F900DF9E2F /* wavy.gif in Resources */ = {isa = PBXBuildFile; fileRef = F12D22CB2B0A03F900DF9E2F /* wavy.gif */; };
 		F12D22CE2B0A098F00DF9E2F /* AgroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22CD2B0A098F00DF9E2F /* AgroView.swift */; };
@@ -31,13 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F11742342B0A2BFD00C74951 /* CustomChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChatCell.swift; sourceTree = "<group>"; };
 		F12D229F2B09AE6E00DF9E2F /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		F12D22A12B09B09200DF9E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F12D22A32B09B1D700DF9E2F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F12D22A52B09DB4800DF9E2F /* DetailedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTaskView.swift; sourceTree = "<group>"; };
-		F12D22C62B0A01D000DF9E2F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F12D22C82B0A025400DF9E2F /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
-		F12D22CA2B0A02A300DF9E2F /* IMG_0990.gif.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0990.gif.mp4; sourceTree = "<group>"; };
 		F12D22CB2B0A03F900DF9E2F /* wavy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wavy.gif; sourceTree = "<group>"; };
 		F12D22CD2B0A098F00DF9E2F /* AgroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgroView.swift; sourceTree = "<group>"; };
 		F12D22CF2B0A0AE700DF9E2F /* Step1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1View.swift; sourceTree = "<group>"; };
@@ -61,7 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F117423A2B0A2CCC00C74951 /* MessageKit in Frameworks */,
 				F12D22C52B09FDC000DF9E2F /* SwiftNFC in Frameworks */,
+				F11742382B0A2CB100C74951 /* MessageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +90,7 @@
 		F1C3A9B02B09678000F1A67E /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				F11742342B0A2BFD00C74951 /* CustomChatCell.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -150,12 +154,10 @@
 				F1C3A9B02B09678000F1A67E /* Chat */,
 				F1C3A9AF2B09677900F1A67E /* Profile */,
 				F1FBB4552B095A30000B3EDB /* AgroAppApp.swift */,
-				F12D22CA2B0A02A300DF9E2F /* IMG_0990.gif.mp4 */,
 				F1FBB4572B095A30000B3EDB /* ContentView.swift */,
 				F12D22CB2B0A03F900DF9E2F /* wavy.gif */,
 				F1FBB4592B095A31000B3EDB /* Assets.xcassets */,
 				F1FBB45B2B095A31000B3EDB /* Preview Content */,
-				F12D22C62B0A01D000DF9E2F /* LoginView.swift */,
 				F12D22CD2B0A098F00DF9E2F /* AgroView.swift */,
 			);
 			path = AgroApp;
@@ -187,6 +189,8 @@
 			name = AgroApp;
 			packageProductDependencies = (
 				F12D22C42B09FDC000DF9E2F /* SwiftNFC */,
+				F11742372B0A2CB100C74951 /* MessageKit */,
+				F11742392B0A2CCC00C74951 /* MessageKit */,
 			);
 			productName = AgroApp;
 			productReference = F1FBB4522B095A30000B3EDB /* AgroApp.app */;
@@ -218,6 +222,7 @@
 			mainGroup = F1FBB4492B095A30000B3EDB;
 			packageReferences = (
 				F12D22C32B09FDC000DF9E2F /* XCRemoteSwiftPackageReference "SwiftNFC" */,
+				F11742362B0A2CB100C74951 /* XCRemoteSwiftPackageReference "MessageKit" */,
 			);
 			productRefGroup = F1FBB4532B095A30000B3EDB /* Products */;
 			projectDirPath = "";
@@ -252,12 +257,12 @@
 				F12D22A02B09AE6E00DF9E2F /* TasksView.swift in Sources */,
 				F12D22D42B0A0B0B00DF9E2F /* Step3View.swift in Sources */,
 				F1C3A9B32B0967AF00F1A67E /* ProfileView.swift in Sources */,
-				F12D22C72B0A01D000DF9E2F /* LoginView.swift in Sources */,
 				F12D22C92B0A025400DF9E2F /* GifImage.swift in Sources */,
 				F12D22A62B09DB4800DF9E2F /* DetailedTaskView.swift in Sources */,
 				F12D22D02B0A0AE800DF9E2F /* Step1View.swift in Sources */,
 				F12D22CE2B0A098F00DF9E2F /* AgroView.swift in Sources */,
 				F1C3A9BB2B09916900F1A67E /* TextStyles.swift in Sources */,
+				F11742352B0A2BFD00C74951 /* CustomChatCell.swift in Sources */,
 				F1C3A9B82B097D6C00F1A67E /* ProgressBar.swift in Sources */,
 				F12D22A42B09B1D700DF9E2F /* Task.swift in Sources */,
 				F1FBB4562B095A30000B3EDB /* AgroAppApp.swift in Sources */,
@@ -467,6 +472,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F11742362B0A2CB100C74951 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
 		F12D22C32B09FDC000DF9E2F /* XCRemoteSwiftPackageReference "SwiftNFC" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/1998code/SwiftNFC/";
@@ -478,6 +491,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F11742372B0A2CB100C74951 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F11742362B0A2CB100C74951 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		F11742392B0A2CCC00C74951 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F11742362B0A2CB100C74951 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
 		F12D22C42B09FDC000DF9E2F /* SwiftNFC */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F12D22C32B09FDC000DF9E2F /* XCRemoteSwiftPackageReference "SwiftNFC" */;

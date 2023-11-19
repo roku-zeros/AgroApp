@@ -5,6 +5,19 @@ class TaskViewModel: ObservableObject {
     
     func fetchTasks() {
         guard let url = URL(string: "http://94.139.254.148/tasks/get_all") else { return }
+
+        // Попробуйте получить данные из кеша
+        if let cachedResponse = URLCache.shared.cachedResponse(for: URLRequest(url: url)) {
+
+            do {
+                let tasks = try JSONDecoder().decode([Task].self, from: cachedResponse.data)
+                DispatchQueue.main.async {
+                    self.tasks = tasks
+                }
+            } catch {
+                print("Error decoding cached tasks: \(error)")
+            }
+        }
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data else { return }
@@ -14,12 +27,16 @@ class TaskViewModel: ObservableObject {
                 DispatchQueue.main.async {
                     self.tasks = tasks
                 }
+                
+                // Сохраните ответ в кеше
+                let cachedResponse = CachedURLResponse(response: response!, data: data)
+                URLCache.shared.storeCachedResponse(cachedResponse, for: URLRequest(url: url))
             } catch {
-                print(data)
                 print("Error decoding tasks: \(error)")
             }
         }.resume()
     }
+
 }
 
 struct TasksView: View {
@@ -67,6 +84,10 @@ struct TasksView: View {
                                         .stroke(Color(hex: "E0E0E0"), lineWidth: 1)
                                 )
                                 .foregroundColor(.black)
+                            Spacer()
+                        }
+                        HStack {
+                            Text("Статус:  " + task.status)
                             Spacer()
                         }
                         HStack {

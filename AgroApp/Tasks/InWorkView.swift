@@ -39,9 +39,15 @@ struct InWorkView: View {
                         .font(.largeTitle)
                         .padding(.bottom, 24)
             Spacer()
-            Button("Go back") {
+            Button("Закончить") {
                 dismiss()
             }
+            .frame(width: 200)
+            .foregroundColor(.white)
+            .padding()
+            .background(Color(hex: "2FB95D"))
+            .cornerRadius(10)
+            .padding(.bottom, 24)
             
             /*
             NavigationLink(
@@ -62,5 +68,5 @@ struct InWorkView: View {
 }
 
 #Preview {
-    InWorkView(task: Task(id: 1, place_name: "Поле 1", type: "Посев", lat: 41.49144, long: 52.78739, duration: 120, priority: "Высокий", processing_area: 4, executor: "123", status: "Создана"))
+    InWorkView(task: Task(id: 1, place_name: "Поле 1", type: "Посев", lat: 41.49144, long: 52.78739, duration: 120, priority: "Высокий", processing_area: 4, executor: "123", status: "Создана", description: "ОБРАБОТКА Техника: К-742 #1254 Агрегат: Catros 6TS2 #1 Глубина: 8-10 см Рабочая скорость, км/ч :12-14"))
 }

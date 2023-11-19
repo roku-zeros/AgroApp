@@ -9,4 +9,5 @@ struct Task: Hashable, Codable {
     let processing_area: Int
     let executor: String
     let status: String
+    let description: String
 }

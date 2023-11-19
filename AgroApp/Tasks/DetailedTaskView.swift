@@ -18,6 +18,7 @@ struct DetailedTaskView: View {
                 HStack{
                     Text("Задача №" + String(task.id))
                         .H2Text()
+                        .padding(.leading, 16)
                     Spacer()
                 }
                 HStack {
@@ -53,10 +54,19 @@ struct DetailedTaskView: View {
                         .foregroundColor(.black)
                     Spacer()
                 }
+                .padding(.leading, 16)
+                Text(task.description).foregroundStyle(.primary)
+                .padding(.top, 16)
                 Spacer()
                 NavigationLink("Приступить"){
                     InWorkView(task: task)
                 }
+                .frame(width: 200)
+                .foregroundColor(.white)
+                .padding()
+                .background(Color(hex: "2FB95D"))
+                .cornerRadius(10)
+                .padding(.bottom, 24)
             }
             Spacer()
         .navigationBarTitle("")
@@ -64,5 +74,5 @@ struct DetailedTaskView: View {
 }
 
 #Preview {
-    DetailedTaskView(task: Task(id: 1, place_name: "Поле 1", type: "Посев", lat: 41.49144, long: 52.78739, duration: 120, priority: "Высокий", processing_area: 4, executor: "123", status: "Создана"))
+    DetailedTaskView(task: Task(id: 1, place_name: "Поле 1", type: "Посев", lat: 41.49144, long: 52.78739, duration: 120, priority: "Высокий", processing_area: 4, executor: "123", status: "Создана", description: "ОБРАБОТКА Техника: К-742 #1254 Агрегат: Catros 6TS2 #1 Глубина: 8-10 см Рабочая скорость, км/ч :12-14"))
 }

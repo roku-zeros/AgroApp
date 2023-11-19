@@ -11,7 +11,8 @@ import SwiftUI
 struct AgroAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            AgroView()
         }
     }
 }

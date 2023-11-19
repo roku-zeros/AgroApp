@@ -18,7 +18,7 @@ struct ProfileView: View {
             Text("Олег")
                 .padding(.top, 8)
                 .H2Text()
-            Button("Мидл-тракторист"){}
+            Button("Специалист по посеву"){}
                 .yellowText()
                 .padding(.vertical, 2)
                 .padding(.horizontal, 8)
