@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12D22A02B09AE6E00DF9E2F /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D229F2B09AE6E00DF9E2F /* TasksView.swift */; };
+		F12D22A42B09B1D700DF9E2F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22A32B09B1D700DF9E2F /* Task.swift */; };
+		F12D22A62B09DB4800DF9E2F /* DetailedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22A52B09DB4800DF9E2F /* DetailedTaskView.swift */; };
+		F12D22C52B09FDC000DF9E2F /* SwiftNFC in Frameworks */ = {isa = PBXBuildFile; productRef = F12D22C42B09FDC000DF9E2F /* SwiftNFC */; };
+		F12D22C72B0A01D000DF9E2F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22C62B0A01D000DF9E2F /* LoginView.swift */; };
+		F12D22C92B0A025400DF9E2F /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22C82B0A025400DF9E2F /* GifImage.swift */; };
+		F12D22CC2B0A03F900DF9E2F /* wavy.gif in Resources */ = {isa = PBXBuildFile; fileRef = F12D22CB2B0A03F900DF9E2F /* wavy.gif */; };
+		F12D22CE2B0A098F00DF9E2F /* AgroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22CD2B0A098F00DF9E2F /* AgroView.swift */; };
+		F12D22D02B0A0AE800DF9E2F /* Step1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22CF2B0A0AE700DF9E2F /* Step1View.swift */; };
+		F12D22D22B0A0AF500DF9E2F /* Step2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22D12B0A0AF500DF9E2F /* Step2View.swift */; };
+		F12D22D42B0A0B0B00DF9E2F /* Step3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22D32B0A0B0B00DF9E2F /* Step3View.swift */; };
+		F12D22D62B0A0B1900DF9E2F /* Step4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22D52B0A0B1900DF9E2F /* Step4View.swift */; };
+		F12D22D82B0A0C5C00DF9E2F /* InWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D22D72B0A0C5C00DF9E2F /* InWorkView.swift */; };
+		F12D22DD2B0A12A300DF9E2F /* tractor-zeggs.gif in Resources */ = {isa = PBXBuildFile; fileRef = F12D22DC2B0A12A300DF9E2F /* tractor-zeggs.gif */; };
 		F1C3A9B32B0967AF00F1A67E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A9B22B0967AF00F1A67E /* ProfileView.swift */; };
 		F1C3A9B82B097D6C00F1A67E /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A9B72B097D6C00F1A67E /* ProgressBar.swift */; };
 		F1C3A9BB2B09916900F1A67E /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A9BA2B09916900F1A67E /* TextStyles.swift */; };
@@ -17,6 +31,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F12D229F2B09AE6E00DF9E2F /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		F12D22A12B09B09200DF9E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F12D22A32B09B1D700DF9E2F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F12D22A52B09DB4800DF9E2F /* DetailedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTaskView.swift; sourceTree = "<group>"; };
+		F12D22C62B0A01D000DF9E2F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F12D22C82B0A025400DF9E2F /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		F12D22CA2B0A02A300DF9E2F /* IMG_0990.gif.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0990.gif.mp4; sourceTree = "<group>"; };
+		F12D22CB2B0A03F900DF9E2F /* wavy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wavy.gif; sourceTree = "<group>"; };
+		F12D22CD2B0A098F00DF9E2F /* AgroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgroView.swift; sourceTree = "<group>"; };
+		F12D22CF2B0A0AE700DF9E2F /* Step1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1View.swift; sourceTree = "<group>"; };
+		F12D22D12B0A0AF500DF9E2F /* Step2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2View.swift; sourceTree = "<group>"; };
+		F12D22D32B0A0B0B00DF9E2F /* Step3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3View.swift; sourceTree = "<group>"; };
+		F12D22D52B0A0B1900DF9E2F /* Step4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4View.swift; sourceTree = "<group>"; };
+		F12D22D72B0A0C5C00DF9E2F /* InWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWorkView.swift; sourceTree = "<group>"; };
+		F12D22DC2B0A12A300DF9E2F /* tractor-zeggs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "tractor-zeggs.gif"; sourceTree = "<group>"; };
 		F1C3A9B22B0967AF00F1A67E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F1C3A9B72B097D6C00F1A67E /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		F1C3A9BA2B09916900F1A67E /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
@@ -32,12 +61,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12D22C52B09FDC000DF9E2F /* SwiftNFC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F12D22A22B09B1CB00DF9E2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F12D22A32B09B1D700DF9E2F /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F1C3A9AF2B09677900F1A67E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +94,14 @@
 		F1C3A9B12B09678B00F1A67E /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				F12D229F2B09AE6E00DF9E2F /* TasksView.swift */,
+				F12D22A52B09DB4800DF9E2F /* DetailedTaskView.swift */,
+				F12D22CF2B0A0AE700DF9E2F /* Step1View.swift */,
+				F12D22DC2B0A12A300DF9E2F /* tractor-zeggs.gif */,
+				F12D22D12B0A0AF500DF9E2F /* Step2View.swift */,
+				F12D22D32B0A0B0B00DF9E2F /* Step3View.swift */,
+				F12D22D52B0A0B1900DF9E2F /* Step4View.swift */,
+				F12D22D72B0A0C5C00DF9E2F /* InWorkView.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -64,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				F1C3A9B72B097D6C00F1A67E /* ProgressBar.swift */,
+				F12D22C82B0A025400DF9E2F /* GifImage.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -95,15 +142,21 @@
 		F1FBB4542B095A30000B3EDB /* AgroApp */ = {
 			isa = PBXGroup;
 			children = (
+				F12D22A22B09B1CB00DF9E2F /* Models */,
+				F12D22A12B09B09200DF9E2F /* Info.plist */,
 				F1C3A9B92B097FF200F1A67E /* TextStyles */,
 				F1C3A9B42B097C3600F1A67E /* Components */,
 				F1C3A9B12B09678B00F1A67E /* Tasks */,
 				F1C3A9B02B09678000F1A67E /* Chat */,
 				F1C3A9AF2B09677900F1A67E /* Profile */,
 				F1FBB4552B095A30000B3EDB /* AgroAppApp.swift */,
+				F12D22CA2B0A02A300DF9E2F /* IMG_0990.gif.mp4 */,
 				F1FBB4572B095A30000B3EDB /* ContentView.swift */,
+				F12D22CB2B0A03F900DF9E2F /* wavy.gif */,
 				F1FBB4592B095A31000B3EDB /* Assets.xcassets */,
 				F1FBB45B2B095A31000B3EDB /* Preview Content */,
+				F12D22C62B0A01D000DF9E2F /* LoginView.swift */,
+				F12D22CD2B0A098F00DF9E2F /* AgroView.swift */,
 			);
 			path = AgroApp;
 			sourceTree = "<group>";
@@ -132,6 +185,9 @@
 			dependencies = (
 			);
 			name = AgroApp;
+			packageProductDependencies = (
+				F12D22C42B09FDC000DF9E2F /* SwiftNFC */,
+			);
 			productName = AgroApp;
 			productReference = F1FBB4522B095A30000B3EDB /* AgroApp.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +216,9 @@
 				Base,
 			);
 			mainGroup = F1FBB4492B095A30000B3EDB;
+			packageReferences = (
+				F12D22C32B09FDC000DF9E2F /* XCRemoteSwiftPackageReference "SwiftNFC" */,
+			);
 			productRefGroup = F1FBB4532B095A30000B3EDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -174,6 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12D22DD2B0A12A300DF9E2F /* tractor-zeggs.gif in Resources */,
+				F12D22CC2B0A03F900DF9E2F /* wavy.gif in Resources */,
 				F1FBB45D2B095A31000B3EDB /* Preview Assets.xcassets in Resources */,
 				F1FBB45A2B095A31000B3EDB /* Assets.xcassets in Resources */,
 			);
@@ -186,11 +247,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12D22D82B0A0C5C00DF9E2F /* InWorkView.swift in Sources */,
 				F1FBB4582B095A30000B3EDB /* ContentView.swift in Sources */,
+				F12D22A02B09AE6E00DF9E2F /* TasksView.swift in Sources */,
+				F12D22D42B0A0B0B00DF9E2F /* Step3View.swift in Sources */,
 				F1C3A9B32B0967AF00F1A67E /* ProfileView.swift in Sources */,
+				F12D22C72B0A01D000DF9E2F /* LoginView.swift in Sources */,
+				F12D22C92B0A025400DF9E2F /* GifImage.swift in Sources */,
+				F12D22A62B09DB4800DF9E2F /* DetailedTaskView.swift in Sources */,
+				F12D22D02B0A0AE800DF9E2F /* Step1View.swift in Sources */,
+				F12D22CE2B0A098F00DF9E2F /* AgroView.swift in Sources */,
 				F1C3A9BB2B09916900F1A67E /* TextStyles.swift in Sources */,
 				F1C3A9B82B097D6C00F1A67E /* ProgressBar.swift in Sources */,
+				F12D22A42B09B1D700DF9E2F /* Task.swift in Sources */,
 				F1FBB4562B095A30000B3EDB /* AgroAppApp.swift in Sources */,
+				F12D22D22B0A0AF500DF9E2F /* Step2View.swift in Sources */,
+				F12D22D62B0A0B1900DF9E2F /* Step4View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +394,7 @@
 				DEVELOPMENT_TEAM = L9UPQJX3K2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgroApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,6 +424,7 @@
 				DEVELOPMENT_TEAM = L9UPQJX3K2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgroApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -391,6 +465,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F12D22C32B09FDC000DF9E2F /* XCRemoteSwiftPackageReference "SwiftNFC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1998code/SwiftNFC/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F12D22C42B09FDC000DF9E2F /* SwiftNFC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F12D22C32B09FDC000DF9E2F /* XCRemoteSwiftPackageReference "SwiftNFC" */;
+			productName = SwiftNFC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1FBB44A2B095A30000B3EDB /* Project object */;
 }

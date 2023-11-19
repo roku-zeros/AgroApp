@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-                Text("Favourites Screen")
+                TasksView()
                     .tabItem {
                         Image(systemName: "list.number")
                         Text("Задачи")

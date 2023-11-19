@@ -15,12 +15,15 @@ struct ProfileView: View {
         ScrollView {
             Image("profileJamshut")
                 .padding(.top, 16)
-            Text("Данила")
+            Text("Олег")
                 .padding(.top, 8)
                 .H2Text()
-            Image("midRole")
-                .padding(.top, 8)
+            Button("Мидл-тракторист"){}
                 .yellowText()
+                .padding(.vertical, 2)
+                .padding(.horizontal, 8)
+                .background(Color(hex: "FBF3D0"))
+                .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
             
             HStack {
                 VStack {
@@ -47,7 +50,7 @@ struct ProfileView: View {
 
         }
         .frame(width: UIScreen.main.bounds.width)
-        .background(Color.accentColor)
+        .background(Color(hex: "F6F7F8"))
     }
     
 }

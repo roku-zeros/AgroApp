@@ -9,7 +9,14 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Поднесите NFC метку чтобы авторизироваться ").frame(width: 400)
+                .H2Text()
+                .multilineTextAlignment(.center)
+            GIFImage(name: "nfc")
+                .frame(width: 150, height: 150)
+                .padding(.top, 32)
+        }
     }
 }
 
